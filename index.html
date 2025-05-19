@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joxnews - Webflow Ecommerce</title>
+
+    <!-- Favicon Logo -->
+    <link rel="shortcut icon" href="./img/fav.jpg" type="image/x-icon">
+    <!-- Favicon Logo -->
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Custom CSS Link -->
+
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Bootstrap CDN Link -->
+
+    <!-- Bootstrap JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"
+        defer></script>
+    <!-- Bootstrap JS CDN Link -->
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome Link -->
+</head>
+
+<body>
+    <!-- Navber Starts Here -->
+
+    <nav class="navbar border-bottom px-5 py-3">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-center align-items-center gap-4">
+                <span class="navbar-toggler-icon fs-3"></span>
+                <input class="form-control custom-input" type="text" placeholder="Search Contries">
+            </div>
+            <div class="me-5">
+                <img class="me-5 img-fluid" src="./img/logo.svg" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <p class="mt-3 fw-semibold" href="#">Cart <span class="bg-danger px-2 py-1 rounded-5 ms-1">0</span></p>
+                <button class="btn btn-dark fw-semibold">Subscribe</button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg border-bottom px-5 py-3 mb-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center d-flex justify-content-center align-items-center text-black fw-semibold"
+                id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Entertainment</a>
+                    <a class="nav-link" href="#">Sports</a>
+                    <a class="nav-link" href="#">Politics</a>
+                    <a class="nav-link" href="#">Business</a>
+                    <a class="nav-link" href="#">Technology</a>
+                    <a class="nav-link" href="#">Health</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navber Ends Here -->
+
+    <!-- Hero Starts Here -->
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="img-fluid rounded" src="./img/h1.jpg" alt="">
+                <h1 class="my-5">Global Climate Summit Yields Mixed Results on Key Agreements</h1>
+                <p class="fw-bold">The global stock market has reached unprecedented levels, buoyed by optimistic
+                    economic forecasts and strong corporate earnings.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-center gap-4 border-bottom">
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-3" src="./img/h2.jpg" alt=""></div>
+                    <div class="col-lg-6">
+                        <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center gap-4 border-bottom">
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-3 mt-3" src="./img/h3.jpg" alt=""></div>
+                    <div class="col-lg-6">
+                        <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center gap-4 border-bottom">
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-3 mt-3" src="./img/h4.jpg" alt=""></div>
+                    <div class="col-lg-6">
+                        <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center gap-4 border-bottom">
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-3 mt-3" src="./img/h5.jpg" alt=""></div>
+                    <div class="col-lg-6">
+                        <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Ends Here -->
+
+    <!-- Latest News Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="news-title d-flex justify-content-between align-items-center fw-bold mb-4">
+            <h1>LATEST NEWS</h1>
+            <p class="text-danger">VIEW ALL</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 latest-news-1">
+                <img class="img-fluid mb-3" src="./img/ln1.jpg" alt="">
+                <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                <p class="fw-bold h3">Global Summit 2024: Leaders Address Climate, Trade, and Security Challenges</p>
+            </div>
+
+            <div class="col-lg-6 latest-news">
+                <div class="d-flex justify-content-between align-items-center gap-4">
+                    <div class="col-lg-6">
+                        <img class="img-fluid mb-3" src="./img/ln2.jpg" alt="">
+                        <div class="col-lg-12">
+                            <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                            <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid me-2 mb-3" src="./img/ln3.jpg" alt="">
+                        <div class="col-lg-12">
+                            <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                            <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center gap-4">
+                    <div class="col-lg-6">
+                        <img class="img-fluid mb-3" src="./img/ln4.jpg" alt="">
+                        <div class="col-lg-12">
+                            <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                            <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid me-2 mb-3" src="./img/ln5.jpg" alt="">
+                        <div class="col-lg-12">
+                            <p class="fw-bold">Technology <span>|</span> 6 Min</p>
+                            <p class="fw-bold">New Regulations Put Tech Giants Under the Spotlight</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Latest News Ends Here -->
+
+    <!-- Latest Starts Here -->
+    <div class="container-fluid px-5 py-5 bg-danger">
+        <div class="row">
+            <div class="col-lg-4 text-white fw-bold d-flex flex-column justify-content-center">
+                <h3 class="mb-4">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h3>
+                <div class="border"></div>
+                <p class="mt-4">Smart city initiatives are leveraging AI, IoT, and data analytics to create sustainable
+                    spaces.</p>
+            </div>
+            <div class="col-lg-8">
+                <img class="img-fluid rounded" src="./img/bb.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Latest Ends Here -->
+
+    <!-- Editor Pics Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="row">
+            <div class="col-lg-4 mt-5">
+                <h1 class="mb-5 fw-semibold">Editors Pick</h1>
+                <h2 class="mb-4">5G Expansion: What It Means for Consumers and Businesses</h2>
+                <div class="border"></div>
+                <p class="mt-4 fw-bold text-secondary">From faster downloads to smarter cities, 5G is reshaping global
+                    connectivity.</p>
+            </div>
+            <div class="col-lg-8">
+                <img class="img-fluid mt-5" src="./img/ep.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Editor Pics Ends Here -->
+
+    <!-- Technolodgy-1 Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/ln3.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/ln5.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/t1.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+        </div>
+    </div>
+    <!-- Technolodgy-1 Ends Here -->
+
+    <!-- Technolodgy-2 Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="news-title d-flex justify-content-between align-items-center fw-bold mb-4">
+            <h1>TECHNOLOGY</h1>
+            <p class="text-danger">VIEW ALL</p>
+        </div>
+        <div class="row technology-2">
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/ep.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/h4.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/ln3.jpg" alt="">
+                <p class="fw-bold mt-4">Technology <span>|</span> 6 Min</p>
+                <p class="fw-semibold h5">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+        </div>
+    </div>
+    <!-- Technolodgy-2 Ends Here -->
+
+    <!-- Staff Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="news-title d-flex justify-content-between align-items-center fw-bold mb-4">
+            <h1>Staff Writers</h1>
+            <p class="text-danger">VIEW ALL</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="img-fluid rounded" src="./img/s1.jpg" alt="">
+                <h5 class="fw-semibold mt-4">Ethan Collins</h5>
+                <p class="text-secondary fw-semibold">Ethan Collins</p>
+            </div>
+            <div class="col-lg-3">
+                <img class="img-fluid rounded" src="./img/s2.jpg" alt="">
+                <h5 class="fw-semibold mt-4">Ethan Collins</h5>
+                <p class="text-secondary fw-semibold">Ethan Collins</p>
+            </div>
+            <div class="col-lg-3">
+                <img class="img-fluid rounded" src="./img/s3.jpg" alt="">
+                <h5 class="fw-semibold mt-4">Ethan Collins</h5>
+                <p class="text-secondary fw-semibold">Ethan Collins</p>
+            </div>
+            <div class="col-lg-3">
+                <img class="img-fluid rounded" src="./img/s4.jpg" alt="">
+                <h5 class="fw-semibold mt-4">Ethan Collins</h5>
+                <p class="text-secondary fw-semibold">Ethan Collins</p>
+            </div>
+        </div>
+    </div>
+    <!-- Staff Ends Here -->
+
+    <!-- Artical Section One Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <h1 class="mb-5">Articles & Resources</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="fw-semibold text-secondary">Technology <span>|</span> December 16, 2024</p>
+                <p class="h3">5 Cutting-Edge Technologies in Education Transforming How We Learn</p>
+                <p class="text-danger mt-4 fw-bold">Read More..</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid rounded" src="./img/ar.jpg" alt="">
+            </div>
+        </div>
+        <div class="border mt-5 mb-5"></div>
+    </div>
+    <!-- Artical Section One Ends Here -->
+
+    <!-- Artical Section Two Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="fw-semibold text-secondary">Health <span>|</span> December 16, 2024</p>
+                <p class="h3">5 Cutting-Edge Technologies in Education Transforming How We Learn</p>
+                <p class="text-danger mt-4 fw-bold">Read More..</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid rounded" src="./img/ar2.jpg" alt="">
+            </div>
+        </div>
+        <div class="border mt-5 mb-5"></div>
+    </div>
+    <!-- Artical Section Two Ends Here -->
+
+    <!-- Artical Section Three Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="fw-semibold text-secondary">Business <span>|</span> December 16, 2024</p>
+                <p class="h3">5 Cutting-Edge Technologies in Education Transforming How We Learn</p>
+                <p class="text-danger mt-4 fw-bold">Read More..</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid rounded" src="./img/ar3.jpg" alt="">
+            </div>
+        </div>
+        <div class="border mt-5 mb-5"></div>
+    </div>
+    <!-- Artical Section Three Ends Here -->
+
+    <!-- Contact Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="row bg-danger py-5 px-5">
+            <div class="col-lg-6 px-5 py-5">
+                <h3>Stay informed with our latest news and updates.</h3>
+                <p>Get breaking news and curated stories delivered to your inbox every day. Be the first to know what’s
+                    happening around the world</p>
+            </div>
+            <div class="col-lg-6 px-5 py-5">
+                <input class="form-control" type="text" placeholder="Enter Your E-mail">
+                <button class="btn btn-dark w-100 mt-3">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Ends Here -->
+
+    <!-- Podcast Starts Here -->
+    <div class="container-fluid px-5 py-5">
+        <div class="news-title d-flex justify-content-between align-items-center fw-bold mb-4">
+            <h1>PODCAST</h1>
+            <p class="text-danger">VIEW ALL</p>
+        </div>
+        <div class="row technology-2">
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/p1.jpg" alt="">
+                <p class="fw-bold mt-4">Laura Bennett</p>
+                <p class="fw-semibold text-secondary">Editorialist</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/p2.jpg" alt="">
+                <p class="fw-bold mt-4">Laura Bennett</p>
+                <p class="fw-semibold text-secondary">Editorialist</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid rounded" src="./img/p3.jpg" alt="">
+                <p class="fw-bold mt-4">Laura Bennett</p>
+                <p class="fw-semibold text-secondary">Editorialist</p>
+            </div>
+        </div>
+    </div>
+    <!-- Podcast Ends Here -->
+
+    <!-- Footer one Starts Here -->
+    <div class="container-fluid py-5 bg-black border-bottom">
+        <div class="row px-5">
+            <div class="col-lg-5">
+                <img class="img-fluid" src="./img/footer-logo.svg" alt="">
+            </div>
+            <div class="col-lg-7 ps-5">
+                <a class="text-decoration-none text-white ps-5 pe-3 fw-bold" href="#">Entertainment</a>
+                <a class="text-decoration-none text-white px-3 fw-bold" href="#">Sports</a>
+                <a class="text-decoration-none text-white px-3 fw-bold" href="#">Politics</a>
+                <a class="text-decoration-none text-white px-3 fw-bold" href="#">Business</a>
+                <a class="text-decoration-none text-white px-3 fw-bold" href="#">Technology</a>
+                <a class="text-decoration-none text-white ps-3 fw-bold" href="#">Health</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer one Ends Here -->
+
+    <!-- Footer two Starts Here -->
+    <div class="container-fluid py-5 bg-black border-bottom">
+        <div class="row px-5">
+            <div class="col-lg-5">
+                <h3 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </h3>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="./img/f1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="./img/f2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="./img/f3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row ps-5">
+                    <div class="col-lg-5 ps-5 d-flex flex-column gap-3">
+                        <p class="text-secondary fw-bold mb-4">Pages</p>
+                        <a class="text-decoration-none text-white fw-bold" href="#">About Us</a>
+                        <a class="text-decoration-none text-white fw-bold" href="#">News</a>
+                        <a class="text-decoration-none text-white fw-bold" href="#">Authors</a>
+                        <a class="text-decoration-none text-white fw-bold" href="#">Podcast</a>
+                        <a class="text-decoration-none text-white fw-bold" href="#">Contact Us</a>
+                    </div>
+                    <div class="col-lg-7 ps-5 d-flex flex-column gap-3 pb-5">
+                        <p class="text-secondary fw-bold mb-4">Conatc Us</p>
+                        <a class="text-decoration-none text-white fw-bold" href="#">hello@example.com</a>
+                        <a class="text-decoration-none text-white fw-bold" href="#">+1 (406) 555-0120</a>
+                        <div class="border my-4"></div>
+                        <a class="text-decoration-none text-white fw-bold" href="#">Follow Us</a>
+                        <div class="social-icon d-flex align-items-center gap-3 fs-6 text-white">
+                            <i class="fa-brands fa-square-facebook border px-3 py-3 rounded-5"></i>
+                            <i class="fa-brands fa-linkedin border px-3 py-3 rounded-5"></i>
+                            <i class="fa-brands fa-square-instagram border px-3 py-3 rounded-5"></i>
+                            <i class="fa-brands fa-youtube border px-3 py-3 rounded-5"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer two Ends Here -->
+
+    <!-- Footer three Starts Here -->
+    <div class="container-fluid py-2 pt-4 bg-black">
+        <div class="px-5 d-flex justify-content-between align-items-center">
+            <div>
+                <p class="text-white fw-bold">© 2025 Joxnews - Work by Onmix. Made with Webflow.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center gap-3 text-white fw-semibold">
+                <p>Style Guide</p>
+                <p>Change Log</p>
+                <p>Licenses</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer three Ends Here -->
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    width: 100%;
+    height: auto;
+    scroll-behavior: smooth;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.latest-news-1 img {
+    height: 500px;
+}
+
+.latest-news img {
+    height: 200px; 
+    width: 300px;
+}
+
+.technology-2 img {
+    height: 300px;
+}
